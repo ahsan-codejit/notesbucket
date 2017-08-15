@@ -1,0 +1,41 @@
+{
+	"name": "notesbucket",
+	"version": "1.0.0",
+	"description": "apis for personal notes using nodejs, expressjs, mongodb, mongoose",
+	"main": "app.js",
+	"scripts": {
+		"start": "export NODE_ENV=dev && node app.js",
+		"test": "mocha --timeout 10000"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/ahsan-codejit/notesbucket.git"
+	},
+	"keywords": [
+		"node.js",
+		"express.js",
+		"mongoose",
+		"mongodb",
+		"mocha",
+		"chai",
+		"chaihttp"
+	],
+	"author": "Md. Ahsan Habib (ahhasan.1325@gmail.com)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ahsan-codejit/notesbucket/issues"
+	},
+	"homepage": "https://github.com/ahsan-codejit/notesbucket#readme",
+	"dependencies": {
+		"body-parser": "^1.17.2",
+		"config": "^1.26.2",
+		"express": "^4.15.4",
+		"mongoose": "^4.11.7",
+		"morgan": "^1.8.2"
+	},
+	"devDependencies": {
+		"chai": "^4.1.1",
+		"chai-http": "^3.0.0",
+		"mocha": "^3.5.0"
+	}
+}
